@@ -1,0 +1,53 @@
+{
+  "Title": "Motivational Lizard",
+  "Type": "game",
+  "Org": "sharpmars",
+  "Ident": "motivationalgame",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "MaxPlayers": 1,
+    "MinPlayers": 1,
+    "GameNetworkType": "Singleplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "motivationalmap"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "ProjectTemplate": null,
+    "CsProjName": "",
+    "HttpAllowList": null,
+    "ControlModes": {
+      "Keyboard": true,
+      "Gamepad": true
+    },
+    "InputSettings": {
+      "Actions": [
+        {
+          "Name": "hi",
+          "KeyboardCode": "A",
+          "GroupName": ""
+        }
+      ]
+    },
+    "Compiler": {
+      "RootNamespace": "MotivationalLizard",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;",
+      "References": [],
+      "DistinctReferences": []
+    },
+    "Summary": "thank you lizard\uD83D\uDC9C",
+    "Description": "DMCA Warning\napart from that\nLizard :D",
+    "Public": true
+  }
+}

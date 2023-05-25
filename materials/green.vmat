@@ -1,0 +1,6 @@
+"Layer0"
+{
+	"shader"		"shaders/unlit.shader_c"
+	"TextureColor"		"[0.705882 0.894118 0.109804 1.000000]"
+	"TextureTintMask"		"materials/default/default.tga"
+}
