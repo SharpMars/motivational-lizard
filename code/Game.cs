@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Sandbox;
 
@@ -10,7 +9,7 @@ public partial class MotivationalGame : GameManager
 	[Net] private IList<CameraPosition> _cameraPositions { get; set; }
 	private Hud _hud;
 	[Net] private Sound? _music { get; set; }
-	private IList<TimeEvent> _events { get; set; } = new List<TimeEvent>
+	private IEnumerable<TimeEvent> _events { get; } = new List<TimeEvent>
 	{
 		new(0, 0, -1, true, false),
 		new(10, 1, -1, false, false),
@@ -103,7 +102,7 @@ public partial class MotivationalGame : GameManager
 			return;
 		
 		var co = Camera.Main.FindOrCreateHook<ColorOverlay>();
-
+		
 		if ( _fadeIn )
 		{
 			co.Amount = MathX.Lerp( 1, 0, _fadeTimer / 5 );
