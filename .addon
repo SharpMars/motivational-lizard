@@ -7,7 +7,9 @@
   "Schema": 1,
   "HasAssets": true,
   "AssetsPath": "",
-  "ResourcePaths": [],
+  "ResourcePaths": [
+    "/fonts/*"
+  ],
   "HasCode": true,
   "CodePath": "/code/",
   "PackageReferences": [],
@@ -16,7 +18,7 @@
     "MaxPlayers": 1,
     "MinPlayers": 1,
     "GameNetworkType": "Singleplayer",
-    "MapSelect": "Unrestricted",
+    "MapSelect": "Hidden",
     "MapList": [
       "motivationalmap"
     ],
