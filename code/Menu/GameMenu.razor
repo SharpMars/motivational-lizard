@@ -1,0 +1,21 @@
+﻿@using Sandbox;
+@using Sandbox.UI;
+@inherits RootPanel
+@implements Sandbox.Menu.IGameMenuPanel
+@attribute [StyleSheet("/menu/gamemenu.scss")]
+
+<root>
+	@if ( !Game.InGame )
+	{
+		<label class="title">Motivational Lizard</label>
+		<button @onclick="@Start">Play</button>
+	}
+</root>
+
+@code
+{
+	private void Start()
+	{
+		_ = Game.Menu.StartServerAsync( 1, "My Server", "motivationalmap" );
+	}
+}

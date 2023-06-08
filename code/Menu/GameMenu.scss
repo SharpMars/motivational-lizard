@@ -1,0 +1,27 @@
+﻿gamemenu {
+  color: white;
+  font-family: ComicNeue-Bold;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 5%;
+  font-size: 72px;
+}
+
+.button
+{
+  font-size: 48px;
+  margin-bottom: 5%;
+  
+  &:hover {
+    color: hsl(0, 0%, 70%);
+  }
+  
+  &:active {
+      color: hsl(0, 0%, 50%);
+  }
+}
