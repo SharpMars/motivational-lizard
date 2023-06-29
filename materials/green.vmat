@@ -2,8 +2,8 @@
 
 Layer0
 {
-	shader "shaders/unlit.shader_c"
+	shader "shaders/solid_color.shader_c"
 
 	//---- Color ----
-	color "[0.709804 0.890196 0.125490 1.000000]"
+	color "[0.686275 0.811765 0.082353 1.000000]"
 }
