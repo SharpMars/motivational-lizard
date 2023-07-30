@@ -14,8 +14,17 @@
 
 @code
 {
+	private bool _shouldClose;
+	
 	private void Start()
 	{
 		_ = Game.Menu.StartServerAsync( 1, "My Server", "motivationalmap" );
+		_shouldClose = true;
+	}
+	
+	public override void Tick()
+	{
+		if ( !Game.InGame && !Game.Menu.IsLoading && _shouldClose )
+			Game.Menu.Close();
 	}
 }
