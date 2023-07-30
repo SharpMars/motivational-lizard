@@ -74,9 +74,9 @@ public partial class MotivationalGame : GameManager
 		if ( !_music.HasValue )
 			return;
 
-		if ( !_music.Value.IsPlaying )
+		if ( !_music.Value.IsPlaying && Game.IsServer )
 		{
-			cl.Kick();
+			Game.Disconnect();
 			return;
 		}
 
