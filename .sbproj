@@ -49,6 +49,7 @@
     },
     "Summary": "thank you lizard\uD83D\uDC9C",
     "Description": "DMCA Warning\napart from that\nLizard :D",
-    "Public": true
+    "Public": true,
+    "TickRate": 50
   }
 }
