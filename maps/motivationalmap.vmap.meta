@@ -1,23 +1,27 @@
 {
   "publish": {
+    "Allowed": true,
     "Enabled": false,
     "ProjectConfig": {
-      "Title": null,
-      "Type": null,
-      "Org": null,
-      "Ident": null,
+      "Title": "motivationalmap",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "motivationalmap",
       "Tags": null,
       "Schema": 0,
       "HasAssets": false,
       "AssetsPath": null,
-      "ResourcePaths": null,
+      "Resources": null,
+      "MenuResources": null,
       "HasCode": false,
       "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
         "sharpmars.motivationalgame"
       ],
-      "Metadata": {}
+      "Metadata": {
+        "SingleAssetSource": "maps/motivationalmap.vmap"
+      }
     }
   }
 }
