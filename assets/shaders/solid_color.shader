@@ -3,6 +3,13 @@ HEADER
 	Description = "Template Shader for S&box";
 }
 
+MODES
+{
+    VrForward();
+    Depth();
+    ToolVis( S_MODE_TOOLS_VIS );
+}
+
 FEATURES
 {
     #include "common/features.hlsl"
@@ -27,7 +34,7 @@ VS
 {
 	#include "common/vertex.hlsl"
 
-	PixelInput MainVs( INSTANCED_SHADER_PARAMS( VertexInput i ) )
+	PixelInput MainVs( VertexInput i )
 	{
 		PixelInput o = ProcessVertex( i );
 		return FinalizeVertex( o );

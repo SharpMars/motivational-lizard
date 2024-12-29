@@ -1,0 +1,326 @@
+{
+  "__guid": "c9807b3f-9b12-4fdb-a190-2aae0f943d53",
+  "GameObjects": [
+    {
+      "__guid": "840451db-485d-4c71-b279-7abb83b848ec",
+      "Flags": 0,
+      "Name": "Scene Information",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SceneInformation",
+          "__guid": "a56ce80a-3bf3-44d2-98e9-e6501893a531",
+          "Changes": "",
+          "Description": "",
+          "SceneTags": "",
+          "Title": "main"
+        }
+      ]
+    },
+    {
+      "__guid": "8855a446-97c3-45f6-bdab-6af7d908840e",
+      "Flags": 0,
+      "Name": "Manager",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "MotivationalLizard.GameManager",
+          "__guid": "693a8856-48cf-4273-b2fa-d83ff80d2450",
+          "Cameras": [
+            {
+              "_type": "component",
+              "component_id": "7d58c4f3-97d5-47cc-a869-8d1a5b147362",
+              "go": "1761d463-a320-4a4f-9e7e-41d71bbe2103",
+              "component_type": "CameraComponent"
+            },
+            {
+              "_type": "component",
+              "component_id": "bbd41b38-1aa8-49bf-a15a-340e5da3e3d5",
+              "go": "d29f271d-a5ba-4b90-b0dd-e32810d1bc31",
+              "component_type": "CameraComponent"
+            },
+            {
+              "_type": "component",
+              "component_id": "c1ccc1b9-9877-4314-8001-e5801ac0f2c5",
+              "go": "d2e7187a-6658-412e-bbd8-165f43f09118",
+              "component_type": "CameraComponent"
+            },
+            {
+              "_type": "component",
+              "component_id": "e5d00742-a550-4b5b-82fd-b0f7f66f75d5",
+              "go": "1765975b-be61-4453-a8bb-00113df9beac",
+              "component_type": "CameraComponent"
+            }
+          ],
+          "ScreenText": {
+            "_type": "component",
+            "component_id": "df78f841-3073-4354-bb5c-c9ec4b104ed6",
+            "go": "403356cb-07a8-4207-870b-8572e0018fe1",
+            "component_type": "OnScreenText"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "1761d463-a320-4a4f-9e7e-41d71bbe2103",
+      "Flags": 0,
+      "Name": "Cam1",
+      "Position": "16,-384,106.137",
+      "Rotation": "0,0,0.707107,0.7071065",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "7d58c4f3-97d5-47cc-a869-8d1a5b147362",
+          "BackgroundColor": "0,0,0,1",
+          "ClearFlags": "All",
+          "FieldOfView": 90,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "d29f271d-a5ba-4b90-b0dd-e32810d1bc31",
+      "Flags": 0,
+      "Name": "Cam2",
+      "Position": "-1056,-160,288",
+      "Rotation": "-0.5000007,0.4999996,0.5000003,0.4999993",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "bbd41b38-1aa8-49bf-a15a-340e5da3e3d5",
+          "BackgroundColor": "0,0,0,1",
+          "ClearFlags": "All",
+          "FieldOfView": 90,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "d2e7187a-6658-412e-bbd8-165f43f09118",
+      "Flags": 0,
+      "Name": "Cam3",
+      "Position": "-288,-64,112",
+      "Rotation": "0,0,0.707107,0.7071065",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "c1ccc1b9-9877-4314-8001-e5801ac0f2c5",
+          "BackgroundColor": "0,0,0,1",
+          "ClearFlags": "All",
+          "FieldOfView": 90,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "1765975b-be61-4453-a8bb-00113df9beac",
+      "Flags": 0,
+      "Name": "Cam4",
+      "Position": "-304,-24,112",
+      "Rotation": "0,0,0.707107,0.7071065",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "e5d00742-a550-4b5b-82fd-b0f7f66f75d5",
+          "BackgroundColor": "0,0,0,1",
+          "ClearFlags": "All",
+          "FieldOfView": 90,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "430751a9-acd3-48aa-9c93-18511943c4a6",
+      "Flags": 0,
+      "Name": "Map",
+      "Position": "-473.7975,-390.0422,659.5099",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MapInstance",
+          "__guid": "046caefb-d414-42ef-86b8-81e5ed67f8de",
+          "__version": 1,
+          "EnableCollision": true,
+          "MapName": "maps/motivationalmap.vmap",
+          "NoOrigin": true,
+          "OnMapLoaded": {
+            "__version": 8,
+            "__guid": "698432d0-1ae0-4a28-9014-53da72c81661",
+            "__changeId": 12,
+            "UserData": {
+              "Title": "On Map Loaded",
+              "ReferencedComponentTypes": []
+            },
+            "Variables": [],
+            "Nodes": [
+              {
+                "Id": 0,
+                "Type": "input",
+                "UserData": {
+                  "Position": "192,144"
+                }
+              },
+              {
+                "Id": 2,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "-72,120"
+                }
+              },
+              {
+                "Id": 3,
+                "Type": "call",
+                "Properties": {
+                  "_isStatic": false,
+                  "_name": "Get",
+                  "_type": "Sandbox.IComponentLister",
+                  "T": "MotivationalLizard.GameManager"
+                },
+                "UserData": {
+                  "Position": "84,180"
+                }
+              },
+              {
+                "Id": 4,
+                "Type": "property",
+                "Properties": {
+                  "_name": "MapLoaded",
+                  "_type": "MotivationalLizard.GameManager"
+                },
+                "UserData": {
+                  "Position": "432,180"
+                }
+              }
+            ],
+            "Links": [
+              {
+                "SrcId": 2,
+                "SrcName": "_result",
+                "DstId": 3,
+                "DstName": "_target"
+              },
+              {
+                "SrcId": 0,
+                "SrcName": "_signal",
+                "DstId": 4,
+                "DstName": "_signal"
+              },
+              {
+                "SrcId": 3,
+                "SrcName": "_result",
+                "DstId": 4,
+                "DstName": "_target"
+              },
+              {
+                "Id": 6,
+                "Value": true,
+                "DstId": 4,
+                "DstName": "_value"
+              }
+            ],
+            "Defaults": {
+              "$2.gameobject": {
+                "_type": "gameobject",
+                "go": "8855a446-97c3-45f6-bdab-6af7d908840e"
+              }
+            }
+          },
+          "OnMapUnloaded": null,
+          "UseMapFromLaunch": false
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "403356cb-07a8-4207-870b-8572e0018fe1",
+      "Flags": 0,
+      "Name": "Screen",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "4f849ae1-8e05-4832-81de-1da6627c2d57",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ScaleStrategy": "ConsistentHeight",
+          "ZIndex": 100
+        },
+        {
+          "__type": "MotivationalLizard.OnScreenText",
+          "__guid": "df78f841-3073-4354-bb5c-c9ec4b104ed6"
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "PhysicsSubSteps": 1,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "Metadata": {
+      "Title": "main"
+    },
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "ResourceVersion": 2,
+  "Title": "main",
+  "Description": null,
+  "__references": [],
+  "__version": 2
+}
