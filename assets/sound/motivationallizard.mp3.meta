@@ -1,0 +1,20 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Motivationallizard",
+      "Type": "vsnd",
+      "Org": "local",
+      "Ident": "motivationallizard",
+      "Schema": 0,
+      "IncludeSourceFiles": true,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "sound/motivationallizard.mp3"
+      }
+    }
+  }
+}

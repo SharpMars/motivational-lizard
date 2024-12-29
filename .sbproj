@@ -3,16 +3,12 @@
   "Type": "game",
   "Org": "sharpmars",
   "Ident": "motivationalgame",
-  "Tags": null,
   "Schema": 1,
-  "HasAssets": true,
-  "AssetsPath": "",
-  "Resources": "fonts/*\nstyle.scss",
-  "MenuResources": "fonts/*\nMenu/GameMenu.scss",
-  "HasCode": true,
-  "CodePath": "/code/",
+  "IncludeSourceFiles": false,
+  "Resources": "fonts/*\nstyle.scss\nsound/*.mp3",
   "PackageReferences": [],
   "EditorReferences": null,
+  "IsWhitelistDisabled": false,
   "Metadata": {
     "MaxPlayers": 1,
     "MinPlayers": 1,
@@ -31,15 +27,6 @@
       "Keyboard": true,
       "Gamepad": true
     },
-    "InputSettings": {
-      "Actions": [
-        {
-          "Name": "hi",
-          "KeyboardCode": "A",
-          "GroupName": ""
-        }
-      ]
-    },
     "Compiler": {
       "RootNamespace": "MotivationalLizard",
       "DefineConstants": "SANDBOX;ADDON;DEBUG",
@@ -50,6 +37,9 @@
     "Summary": "thank you lizard\uD83D\uDC9C",
     "Description": "DMCA Warning\napart from that\nLizard :D",
     "Public": true,
-    "TickRate": 50
+    "TickRate": 50,
+    "StartupScene": "main.scene",
+    "MapStartupScene": null,
+    "LaunchMode": "Normal"
   }
 }

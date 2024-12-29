@@ -8,7 +8,7 @@ public struct TimeEvent
 	public bool FadeIn { get; set; }
 	public bool FadeOut { get; set; }
 
-	public TimeEvent(float activationTime, int cameraToUse, int labelToActivate, bool fadeIn, bool fadeOut)
+	public TimeEvent( float activationTime, int cameraToUse, int labelToActivate, bool fadeIn, bool fadeOut )
 	{
 		ActivationTime = activationTime;
 		CameraToUse = cameraToUse;
