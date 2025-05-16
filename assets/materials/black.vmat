@@ -2,7 +2,7 @@
 
 Layer0
 {
-	shader "shaders/solid_color.shader_c"
+	shader "shaders/solid_color.shader"
 
 	//---- Color ----
 	color "[0.000000 0.000000 0.000000 0.000000]"

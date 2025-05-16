@@ -36,7 +36,7 @@ struct PixelInput
 
 	// PS only
 	#if ( ( PROGRAM == VFX_PROGRAM_PS ) )
-		float4 vPositionSs		: SV_ScreenPosition;
+		float4 vPositionSs		: SV_Position;
 	#endif
 };
 
